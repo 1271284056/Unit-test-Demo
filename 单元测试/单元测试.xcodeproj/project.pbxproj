@@ -14,6 +14,8 @@
 		15290AFD1DBDB54E00D37438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15290AFC1DBDB54E00D37438 /* Assets.xcassets */; };
 		15290B001DBDB54E00D37438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15290AFE1DBDB54E00D37438 /* LaunchScreen.storyboard */; };
 		15290B0B1DBDB54E00D37438 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15290B0A1DBDB54E00D37438 /* ____Tests.m */; };
+		15290B161DBDB5EF00D37438 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15290B151DBDB5EF00D37438 /* PersonTests.m */; };
+		15290B191DBDB60000D37438 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 15290B181DBDB60000D37438 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		15290B061DBDB54E00D37438 /* 单元测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15290B0A1DBDB54E00D37438 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		15290B0C1DBDB54E00D37438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15290B151DBDB5EF00D37438 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
+		15290B171DBDB60000D37438 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		15290B181DBDB60000D37438 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,8 @@
 				15290AFE1DBDB54E00D37438 /* LaunchScreen.storyboard */,
 				15290B011DBDB54E00D37438 /* Info.plist */,
 				15290AF01DBDB54E00D37438 /* Supporting Files */,
+				15290B171DBDB60000D37438 /* Person.h */,
+				15290B181DBDB60000D37438 /* Person.m */,
 			);
 			path = "单元测试";
 			sourceTree = "<group>";
@@ -107,6 +114,7 @@
 			children = (
 				15290B0A1DBDB54E00D37438 /* ____Tests.m */,
 				15290B0C1DBDB54E00D37438 /* Info.plist */,
+				15290B151DBDB5EF00D37438 /* PersonTests.m */,
 			);
 			path = "单元测试Tests";
 			sourceTree = "<group>";
@@ -215,6 +223,7 @@
 			files = (
 				15290AF81DBDB54E00D37438 /* ViewController.m in Sources */,
 				15290AF51DBDB54E00D37438 /* AppDelegate.m in Sources */,
+				15290B191DBDB60000D37438 /* Person.m in Sources */,
 				15290AF21DBDB54E00D37438 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15290B161DBDB5EF00D37438 /* PersonTests.m in Sources */,
 				15290B0B1DBDB54E00D37438 /* ____Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
